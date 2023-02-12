@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 0 18px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.head {
+    margin-top: 30px;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main-content h1{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.main-content h5 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.main-content h6 {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.input {
+    display: flex;
+    text-align: center;
+}
+
+input {
+    width: 42px;
+    height: 42px;
+    border-radius: 40px;
+    border-color: red;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.watch, .link ,.btn{
+    text-align: center;
+}
+
+
+
+.link p {
+    opacity: 0.3;
+}
+
+.link a {
+    text-decoration: none;
+    color: red;
+}
+
+.link a:hover{
+    color: red;
+}
+
+.btn button {
+    width: 299px;
+    height: 43px;
+    background: #DE0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 24px;
+}

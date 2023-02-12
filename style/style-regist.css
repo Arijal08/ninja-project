@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 0 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: 100%;
+    height: 129px;
+    background: #FF0000;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.head-co a img{
+    margin-top: 80px;
+    margin-left: 19px;
+}
+
+.head-co h1 {
+    padding-right: 10%;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.flex {
+    display: flex;
+}
+
+form {
+    width: 100%;
+    height: 550px;
+    margin-top: 25px;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+form img {
+    margin-bottom: 26px;
+}
+
+.biodata input{
+    width: 100%;
+    height: 38px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 11px;
+    border-style: none;
+    border-bottom: 1px solid #9C9999;
+}
+
+form .btn button {
+    width: 240px;
+    height: 48px;
+    background: #DE0000;
+    color: white;
+    margin-top: 100px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}

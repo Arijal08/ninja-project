@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 0 34px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));   
+    background: linear-gradient(168.68deg, #FFFFFF 0%, rgba(255, 0, 0, 0) 100.18%);
+
+}
+
+header img {
+    padding-top: 50px;
+}
+
+.content {
+    width: 100%;
+    height: 417px;
+    background: #FFFFFF;
+    margin-top: 20px;
+    padding: 13px 28px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.content img {
+    margin-top: 5px;
+    padding-top: 0;
+}
+
+.content h1 {
+    color: #444444;
+    font-size: 24px;
+    margin-bottom: 6px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content h6 {
+    font-size: 13px;
+    margin-top: 0;
+    color: #444444;
+}
+
+
+.input {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.input input{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    padding: 5px;
+    margin: 3px 0 0 0;
+    border-color: red;
+}
+
+.btn {
+    margin-top: 37px;
+}
+
+.btn button {
+    width: 170px;
+    height: 34px;
+    background: #DC0000;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.arrow {
+    text-align: right;
+    margin-top: 90px;
+}
